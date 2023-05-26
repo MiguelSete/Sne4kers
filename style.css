@@ -8,6 +8,7 @@
 
 
 
+
 body{
     background-color: var(--cor-de-fundo);
 }
@@ -32,7 +33,18 @@ h1{
      padding: 10px;
      font-size: 24px;
      text-decoration: none;
-     color: black;
+     color: white;
      text-align: center;
      border-top: 1px solid;
+}
+
+.cabecalho-imagem{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
+}
+
+.cabecalho {
+    text-align: center;
 }
