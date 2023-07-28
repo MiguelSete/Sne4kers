@@ -1,8 +1,8 @@
 :root {
     --cor-de-fundo: #DEB887;
     --cabecalho-principal: purple;
-    --cor-da-fonte: white;
-    --cor-fundo-menu: black;
+    --cor-da-fonte: rgb(255, 255, 255);
+    --cor-fundo-menu: rgb(235, 149, 64);
 }
 
 
@@ -14,7 +14,7 @@ body{
 }
 
 h1{
-    color: white
+    color: white;
 }
 
 .cabecalho-titulo {
@@ -24,7 +24,7 @@ h1{
     text-align: center;
 }
 
-.cabecalho.menu{
+.cabecalho-menu{
     background-color: var(--cor-fundo-menu);
 }
 
@@ -33,7 +33,7 @@ h1{
      padding: 10px;
      font-size: 24px;
      text-decoration: none;
-     color: white;
+     color: rgb(255, 255, 255);
      text-align: center;
      border-top: 1px solid;
 }
@@ -47,4 +47,4 @@ h1{
 
 .cabecalho {
     text-align: center;
-}
+}   
